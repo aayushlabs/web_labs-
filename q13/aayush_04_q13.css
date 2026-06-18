@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Container */
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    width: 700px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* Form Wrapper - side by side */
+.form-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+/* Each Form Box */
+.form-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box h2 {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.form-box input::placeholder {
+    color: #cccccc;
+}
+
+/* Gender and Terms */
+.gender, .remember, .terms {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #cc9900;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #aa7700;
+}
+
+/* Login Button */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #cc9900;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background-color: #aa7700;
+}
+
+/* Footer */
+.footer-text {
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration / Login Form</title>
+    <link rel="stylesheet" href="aayush_04_q13.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>REGISTRATION / LOGIN FORM</h1>
+
+        <div class="form-wrapper">
+
+            <!-- Registration Form -->
+            <div class="form-box">
+                <h2>Register Form :</h2>
+                <form action="#" method="post">
+
+                    <input type="text" 
+                           placeholder="Username" 
+                           name="username" 
+                           required>
+
+                    <input type="email" 
+                           placeholder="Email" 
+                           name="email" 
+                           required>
+
+                    <input type="email" 
+                           placeholder="Repeat a valid email address" 
+                           name="confirm_email" 
+                           required>
+
+                    <input type="password" 
+                           placeholder="Password" 
+                           name="password" 
+                           required>
+
+                    <input type="password" 
+                           placeholder="Minimum 6 characters" 
+                           name="confirm_password" 
+                           required>
+
+                    <div class="gender">
+                        <label>Gender:</label><br>
+                        <input type="radio" name="gender" value="female">
+                        <label>Female</label>
+                        <input type="radio" name="gender" value="male">
+                        <label>Male</label>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" name="terms" required>
+                        <label>I have read and accept terms of use</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="form-box">
+                <h2>Login form :</h2>
+                <form action="#" method="post">
+
+                    <input type="email" 
+                           placeholder="Enter Your Email" 
+                           name="login_email" 
+                           required>
+
+                    <input type="password" 
+                           placeholder="Password" 
+                           name="login_password" 
+                           required>
+
+                    <div class="remember">
+                        <input type="checkbox" name="remember">
+                        <label>Remember me</label>
+                    </div>
+
+                    <button type="submit" class="btn-login">LOGIN</button>
+
+                </form>
+            </div>
+
+        </div>
+
+        <p class="footer-text">
+            &copy; 2025 Registration/Login Form. All Rights Reserved.
+        </p>
+
+    </div>
+
+</body>
+</html>

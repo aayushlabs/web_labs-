@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.marksheet {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #1a3c6e;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 3px solid #1a3c6e;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    color: #1a3c6e;
+    margin: 0;
+}
+
+.student-info {
+    margin: 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #1a3c6e;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.result {
+    margin-top: 15px;
+    text-align: right;
+}
